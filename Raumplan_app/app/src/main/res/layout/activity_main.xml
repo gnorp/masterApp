@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#80000000"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/ug_btn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="UG" />
+
+
+        <Button
+            android:id="@+id/eg_btn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="EG" />
+
+        <Button
+            android:id="@+id/og1_btn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/og2_btn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/og3_btn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/og4_btn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="4" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/ug"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ug"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <ImageView
+        android:src="@drawable/eg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/eg"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+    <ImageView
+        android:src="@drawable/og1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/og1"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:src="@drawable/og2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/og2"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:src="@drawable/og3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/og3"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:src="@drawable/og4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/og4"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
